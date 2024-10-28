@@ -10,7 +10,7 @@ const (
 	smtpServer = "smtp.***"
 	smtpPort   = "587"
 	email      = "***"
-	password   = "***" // Лучше использовать переменные окружения
+	password   = "***"
 )
 
 func SendEmail(to string, subject string, body string) error {
